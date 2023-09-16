@@ -20,13 +20,15 @@
 
 
 ## Malicious URL Detection Using Machine Learning.
-Detection Malicious URLs using Logistic regression for more info visit https://github.com/Cydev007/Phishing-Url-Detection-Using-Machine-Learning-
+Detect Malicious URLs using Logistic regression for more info visit https://github.com/Cydev007/Phishing-Url-Detection-Using-Machine-Learning-
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/def6093a-e81d-4306-bbfd-98b7b0629b12)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/a3fae2fc-3abb-412b-85fd-e4c79ab85d44)
 
 ![Screenshot 2023-06-13 200455](https://github.com/Cydev007/Inferno-Public/assets/108612723/dc68bc26-263a-4fac-95b8-4abf29deb468)
 
+## Inferno Assistant 
+Inferno asistant is a basic chatbot for security related questions. If you have any doubt while analyzing malware you can ask this in desktop chatbot for instant answer.
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
