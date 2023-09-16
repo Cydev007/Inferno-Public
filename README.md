@@ -107,12 +107,13 @@ Dynamic analysis in a virtual environment provides valuable insights into the ma
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/099e6ac7-deda-4e02-b010-772c78518979)
 
-
-
-
-
-
-
-
-
+## Writing YARA rules
+YARA rules are easy to write and understand, and they have a syntax that resembles the C language. Here is the simplest rule that you can write for YARA, which does absolutely nothing:
+rule dummy
+{
+    condition:
+        false
+}
+Each rule in YARA starts with the keyword rule followed by a rule identifier. Identifiers must follow the same lexical conventions of the C programming language, they can contain any alphanumeric character and the underscore character, but the first character cannot be a digit. Rule identifiers are case sensitive and cannot exceed 128 characters.
+In our application when you click on YARA rules a notepad promt will open where you can write your own YARA rules by analyzing malwares.
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/0cee542b-4fd7-4e83-a740-c644fcc92dd3)
