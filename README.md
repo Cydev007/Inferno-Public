@@ -16,7 +16,20 @@
 
 ![Screenshot 2023-06-13 200455](https://github.com/Cydev007/Inferno-Public/assets/108612723/dc68bc26-263a-4fac-95b8-4abf29deb468)
 
-![malaciouspdf](https://github.com/Cydev007/Inferno-Public/assets/108612723/61ccd912-e894-4a3b-8d7a-7e46e288d420)
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/853002b5-9795-4de6-9a0e-b6002f8bca5e)
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/787cc3a4-2625-4cf0-838e-010be596f260)
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/d250d54d-5803-4139-a8b5-af520e9650df)
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/46a5a73d-3cd8-40d9-9d7c-2c23db13384c)
+
+
+
 
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
