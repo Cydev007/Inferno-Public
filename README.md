@@ -62,8 +62,10 @@ By thoroughly analyzing the PE header, security analysts can gather crucial info
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/787cc3a4-2625-4cf0-838e-010be596f260)
-
+#### PE Header Analysis
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/d250d54d-5803-4139-a8b5-af520e9650df)
+
+
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
 
