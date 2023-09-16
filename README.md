@@ -34,29 +34,13 @@ Inferno asistant is a basic chatbot for security related questions. If you have 
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
 
-## Malware Analysis: 
-By analyzing the behavior of files and programs, INFERNO can identify suspicious activities of a malware in our device.
-Malware analysis can be done by in several ways we took two approach 
-
-### i.	Static Analysis : 
-Static analysis of malware refers to the examination and analysis of malware without actually executing it. It involves inspecting the structure, content, and behavior of the malware code to gain insights into its functionality, potential impacts, and evasion techniques. This analysis technique is commonly used by security researchers, malware analysts, and antivirus companies to understand the nature and capabilities of malicious software.
-
-PE header analysis is an essential step in static analysis when examining Windows executable files, including malware. The Portable Executable (PE) format is the executable file format used by Windows operating systems. Analyzing the PE header provides valuable information about the structure, characteristics, and behavior of the executable. Here are some key aspects to consider when performing PE header analysis for malware:
-
-#### 1. File Type Identification: 
-The PE header contains a signature that identifies the file as a PE executable. This signature is located at the beginning of the file and is typically "MZ" (hexadecimal representation) for DOS header followed by "PE\0\0" (hexadecimal representation) for the PE signature.
-#### 2. Optional Header Information: 
-The PE header contains an optional header that provides additional details about the executable. This includes the entry point address, the preferred base address for loading the executable into memory, the size of the image, and various flags that specify the characteristics of the executable.
-#### 3. Sections and Virtual Addressing: 
-The PE header defines the layout of sections within the executable. Each section contains specific data, such as code, data, resources, and import/export information. Analyzing the sections helps identify code injection, encrypted sections, or packed content within the executable. Virtual addresses associated with each section provide insights into the memory layout and the executable's behavior.
-#### 4. Import and Export Tables: 
-The import and export tables within the PE header list the functions and libraries that the executable imports or exports. Analyzing the import table helps identify external dependencies, such as APIs used by the malware to interact with the system. The export table indicates functions that the malware may expose for other modules to use, although this is less common for malicious code.
-#### 5. Resource Information: 
-The PE header also includes a resource table that stores various resources used by the executable, such as icons, images, strings, or configuration data. Analyzing the resource information can reveal any embedded files, encrypted data, or other artifacts used by the malware.
-#### 6. Overlay Analysis: 
-The PE header can provide insights into the presence of overlays within the executable. Overlays are additional data appended to the end of the PE file after the standard headers. Malware authors may use overlays to hide malicious code or data, making overlay analysis important for understanding the full extent of the malware's functionality.
-
-By thoroughly analyzing the PE header, security analysts can gather crucial information about the malware, including its entry point, dependencies, sections, resources, and potential malicious behavior. This knowledge assists in understanding the malware's capabilities, developing detection mechanisms, and formulating appropriate mitigation strategies.
+## Detect Malware 
+This Feature can suggest us an executable is secure to execute in our device or not?
+For Detection malware we took a little different approch. we can detect malware using Image Data 
+=> 	Link: https://www.kaggle.com/datasets/matthewfields/malware-as-images
+After getting the dataset, we did some pre processing task on the dataset, including image labeling and resizing.
+For malware classification, we had use Transfer learning. Transfer learning is a machine learning technique that involves using knowledge gained from training a model on one task to improve performance on a different, related task. It allows a model to leverage pre-trained weights and learned representations from one domain to another, saving time and resources while enhancing performance on new tasks. Therefore, for our classification task we tested the accuracy for different pertained model including ResNet50, ResNet101, VGG16, VGG19, MobileNet and more. After testing some of the pre-trained model in the light of accuracy, at last we conclude that “ResNet50” is the best-fitted model in our dataset.
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/a538ae70-9401-40ea-9b54-d4fe0043a900)
 
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
@@ -99,6 +83,30 @@ Dynamic analysis in a virtual environment provides valuable insights into the ma
 
 
 
+
+## Malware Analysis: 
+By analyzing the behavior of files and programs, INFERNO can identify suspicious activities of a malware in our device.
+Malware analysis can be done by in several ways we took two approach 
+
+### i.	Static Analysis : 
+Static analysis of malware refers to the examination and analysis of malware without actually executing it. It involves inspecting the structure, content, and behavior of the malware code to gain insights into its functionality, potential impacts, and evasion techniques. This analysis technique is commonly used by security researchers, malware analysts, and antivirus companies to understand the nature and capabilities of malicious software.
+
+PE header analysis is an essential step in static analysis when examining Windows executable files, including malware. The Portable Executable (PE) format is the executable file format used by Windows operating systems. Analyzing the PE header provides valuable information about the structure, characteristics, and behavior of the executable. Here are some key aspects to consider when performing PE header analysis for malware:
+
+#### 1. File Type Identification: 
+The PE header contains a signature that identifies the file as a PE executable. This signature is located at the beginning of the file and is typically "MZ" (hexadecimal representation) for DOS header followed by "PE\0\0" (hexadecimal representation) for the PE signature.
+#### 2. Optional Header Information: 
+The PE header contains an optional header that provides additional details about the executable. This includes the entry point address, the preferred base address for loading the executable into memory, the size of the image, and various flags that specify the characteristics of the executable.
+#### 3. Sections and Virtual Addressing: 
+The PE header defines the layout of sections within the executable. Each section contains specific data, such as code, data, resources, and import/export information. Analyzing the sections helps identify code injection, encrypted sections, or packed content within the executable. Virtual addresses associated with each section provide insights into the memory layout and the executable's behavior.
+#### 4. Import and Export Tables: 
+The import and export tables within the PE header list the functions and libraries that the executable imports or exports. Analyzing the import table helps identify external dependencies, such as APIs used by the malware to interact with the system. The export table indicates functions that the malware may expose for other modules to use, although this is less common for malicious code.
+#### 5. Resource Information: 
+The PE header also includes a resource table that stores various resources used by the executable, such as icons, images, strings, or configuration data. Analyzing the resource information can reveal any embedded files, encrypted data, or other artifacts used by the malware.
+#### 6. Overlay Analysis: 
+The PE header can provide insights into the presence of overlays within the executable. Overlays are additional data appended to the end of the PE file after the standard headers. Malware authors may use overlays to hide malicious code or data, making overlay analysis important for understanding the full extent of the malware's functionality.
+
+By thoroughly analyzing the PE header, security analysts can gather crucial information about the malware, including its entry point, dependencies, sections, resources, and potential malicious behavior. This knowledge assists in understanding the malware's capabilities, developing detection mechanisms, and formulating appropriate mitigation strategies.
 
 
 
