@@ -48,8 +48,9 @@ Now we integreting this Model to our application.
 #### Non-Malicious File
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/787cc3a4-2625-4cf0-838e-010be596f260)
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/d250d54d-5803-4139-a8b5-af520e9650df)
-![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
+
 #### Malware File
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/46a5a73d-3cd8-40d9-9d7c-2c23db13384c)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/853002b5-9795-4de6-9a0e-b6002f8bca5e)
