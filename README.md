@@ -53,18 +53,10 @@ Now we integreting this Model to our application.
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/46a5a73d-3cd8-40d9-9d7c-2c23db13384c)
 
-![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/853002b5-9795-4de6-9a0e-b6002f8bca5e)
-![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/4998e24f-b6e0-41a7-a503-659f8aaab6dd)
-
-
-
-
-
-
-
 ## Malware Analysis: 
 By analyzing the behavior of files and programs, INFERNO can identify suspicious activities of a malware in our device.
 Malware analysis can be done by in several ways we took two approach 
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/853002b5-9795-4de6-9a0e-b6002f8bca5e)
 
 ### i.	Static Analysis : 
 Static analysis of malware refers to the examination and analysis of malware without actually executing it. It involves inspecting the structure, content, and behavior of the malware code to gain insights into its functionality, potential impacts, and evasion techniques. This analysis technique is commonly used by security researchers, malware analysts, and antivirus companies to understand the nature and capabilities of malicious software.
@@ -85,6 +77,7 @@ The PE header also includes a resource table that stores various resources used 
 The PE header can provide insights into the presence of overlays within the executable. Overlays are additional data appended to the end of the PE file after the standard headers. Malware authors may use overlays to hide malicious code or data, making overlay analysis important for understanding the full extent of the malware's functionality.
 
 By thoroughly analyzing the PE header, security analysts can gather crucial information about the malware, including its entry point, dependencies, sections, resources, and potential malicious behavior. This knowledge assists in understanding the malware's capabilities, developing detection mechanisms, and formulating appropriate mitigation strategies.
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/4998e24f-b6e0-41a7-a503-659f8aaab6dd)
 
 
 ## ii.	Dynamic Analysis:
