@@ -1,5 +1,6 @@
 # Inferno-Public
 
+WHAT IS MALWARE?![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/b11735fa-fa45-4b8d-bb2e-7e8f5eafe189)
 
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/7bf8ca48-83ad-4d12-a33a-228b4f47c007)
