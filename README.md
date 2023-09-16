@@ -62,9 +62,29 @@ By thoroughly analyzing the PE header, security analysts can gather crucial info
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/787cc3a4-2625-4cf0-838e-010be596f260)
+
 #### PE Header Analysis
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/d250d54d-5803-4139-a8b5-af520e9650df)
 
+## ii.	Dynamic Analysis:
+Dynamic analysis of malware in a virtual environment involves executing the malware within a controlled, isolated environment to observe its behavior, interactions, and potential impacts. By running malware in a virtual environment, analysts can monitor its actions without risking the compromise of a real system. Here are the key steps involved in dynamic analysis of malware in a virtual environment:
+
+#### 1. Setting up the Virtual Environment: 
+Create a virtual machine (VM) using virtualization software like VMware, VirtualBox, or Hyper-V. The VM should closely resemble the target environment (e.g., specific operating system version, software configurations) where the malware is expected to execute. It's crucial to keep the virtual environment isolated from the host system and ensure appropriate security measures are in place.
+
+#### 2. Snapshot or Sandbox: Take a snapshot of the clean state of the virtual machine or use a sandboxing tool to maintain a controlled environment. This allows for easy restoration to a clean state after malware analysis, preventing contamination or persistence of malware artifacts.
+
+#### 3. Execution and Behavior Monitoring: Run the malware within the virtual environment while monitoring its behavior. Use tools like process monitors, network traffic analyzers, system call monitors, and behavior analysis tools to capture and analyze the malware's activities. This includes observing file system modifications, registry changes, network connections, process creation, DLL injections, and any attempts to evade detection or alter system settings.
+
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/5eeed8c3-0510-4a7a-a500-6c545c0ac60d)
+
+#### 4. Dynamic Instrumentation: 
+Employ dynamic instrumentation techniques, such as hooking or API monitoring, to intercept and monitor the malware's interactions with the system. This helps in capturing function calls, system API usage, and memory access patterns, providing deeper insights into the malware's actions and capabilities.
+
+#### 5. Behavioral Analysis and Malware Family Classification:
+Analyze the collected data to understand the malware's behavior, its intended purpose, and potential impact. Compare the observed behavior with known malware families and their typical characteristics to classify the malware and understand its capabilities.
+
+Dynamic analysis in a virtual environment provides valuable insights into the malware's behavior, allowing analysts to understand its functionality, detect evasion techniques, and develop effective mitigation strategies. It complements static analysis techniques and aids in the identification of advanced threats, zero-day vulnerabilities, and the creation of robust defense mechanisms.
 
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/87fedcf3-4f41-42fd-b727-5a82acfb4b88)
