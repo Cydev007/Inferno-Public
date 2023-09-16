@@ -16,6 +16,7 @@
 
 ![Screenshot 2023-06-13 200455](https://github.com/Cydev007/Inferno-Public/assets/108612723/dc68bc26-263a-4fac-95b8-4abf29deb468)
 
+![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
 
@@ -34,7 +35,7 @@
 
 
 
-![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
+
 
 
 
