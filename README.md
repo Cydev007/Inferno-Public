@@ -18,6 +18,9 @@
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/e693f96c-2ecc-4329-a0f6-6b680e8ea5f0)
 
+
+#### Malicious URL Detection Using Machine Learning.
+Detection Malicious URLs using Logistic regression for more info visit https://github.com/Cydev007/Phishing-Url-Detection-Using-Machine-Learning-
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/def6093a-e81d-4306-bbfd-98b7b0629b12)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/a3fae2fc-3abb-412b-85fd-e4c79ab85d44)
