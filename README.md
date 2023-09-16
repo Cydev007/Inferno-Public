@@ -29,6 +29,7 @@ Detect Malicious URLs using Logistic regression for more info visit https://gith
 
 ## Inferno Assistant 
 Inferno asistant is a basic chatbot for security related questions. If you have any doubt while analyzing malware you can ask this in desktop chatbot for instant answer.
+
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/eced7411-2c58-4ff5-a49c-890c446ef282)
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/1f7cc401-d789-435b-ba08-b9d27ad641a7)
