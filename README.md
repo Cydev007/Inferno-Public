@@ -1,4 +1,5 @@
 # Inferno-Public
+**(As this is a University Academic Project I am not Providing Source Code Publically).**
 #### In an increasingly interconnected and digitized world, the threat landscape has evolved, posing significant challenges to individuals and organizations alike. The rise of cybercrime, malware attacks, and sophisticated hacking techniques demands robust security measures to safeguard sensitive data, systems, and networks. To address these pressing concerns, we have developed INFERNO, an advanced threat intelligence software that empowers users with the ability to detect malicious files/programs and malicious URLs, providing a comprehensive shield against cyber threats and analyzing malwares for security research pourposes.
 
 ![image](https://github.com/Cydev007/Inferno-Public/assets/108612723/7bf8ca48-83ad-4d12-a33a-228b4f47c007)
